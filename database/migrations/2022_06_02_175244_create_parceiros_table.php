@@ -13,24 +13,16 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('parceiros', function (Blueprint $table) {
-            $table->id();
-            $table->string('name',255);
+        Schema::create('parceiro', function (Blueprint $table) {
+            $table->id('idparceiro');
+            $table->string('nome',255);
             $table->string('email',255)->nullable();
             $table->string('site',200)->nullable();
-            // $table->string('phone',255);
-            // $table->string('whatsapp',16);
-            // $table->string('street',255);
-            // $table->string('street_number',8);
-            // $table->string('address_complement',8);
-            // $table->string('district');
-            // $table->string('city',24);
-            // $table->string('state',2);
-            // $table->string('main_color',10);
-            // $table->string('second_color',10);
-            // $table->binary('logo');
-            $table->foreignIdFor(\App\Models\Catalogo::class, 'catalogo_id')->nullable();
-
+             $table->string('cor_principal',10);
+             $table->string('cor_secundaria',10);
+             $table->binary('logo');
+            $table->foreignIdFor(\App\Models\Catalogo::class, 'fk_idcatalogo')->nullable();
+$table->foreignIdFor(\App\Models\ParceiroEndereco::class, 'fk_idparceiro_endereco')->nullable();
             $table->timestamps();
         });
     }

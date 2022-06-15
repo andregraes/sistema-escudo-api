@@ -13,13 +13,12 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('catalogo', function (Blueprint $table) {
-            $table->id('idcatalogo');
-            $table->foreignIdFor(\App\Models\Parceiro::class,'fk_idparceiro');
-            $table->boolean('mostrar_precos');
-            //$table->
+        Schema::create('parceiro_telefone', function (Blueprint $table) {
+            $table->id('idtelefone');
+            $table->string('numero');
+            $table->enum('tipo',['comercial','whatsapp','celular']);
+            $table->foreignIdFor(\App\Models\Parceiro::class,'fk_idparceiro')->nullable();
             $table->timestamps();
-
         });
     }
 
@@ -30,6 +29,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('catalogos');
+        Schema::dropIfExists('parceiro_telefones');
     }
 };

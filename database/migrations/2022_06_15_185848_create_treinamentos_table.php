@@ -13,13 +13,11 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('catalogo', function (Blueprint $table) {
-            $table->id('idcatalogo');
-            $table->foreignIdFor(\App\Models\Parceiro::class,'fk_idparceiro');
-            $table->boolean('mostrar_precos');
-            //$table->
+        Schema::create('treinamento', function (Blueprint $table) {
+            $table->id('idtreinamento');
+            $table->string('descricao');
+            $table->decimal('valor',10,2);
             $table->timestamps();
-
         });
     }
 
@@ -30,6 +28,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('catalogos');
+        Schema::dropIfExists('treinamentos');
     }
 };

@@ -13,13 +13,10 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('catalogo', function (Blueprint $table) {
-            $table->id('idcatalogo');
-            $table->foreignIdFor(\App\Models\Parceiro::class,'fk_idparceiro');
-            $table->boolean('mostrar_precos');
-            //$table->
+        Schema::create('plano', function (Blueprint $table) {
+            $table->id('idplano');
+            $table->string('descricao');
             $table->timestamps();
-
         });
     }
 
@@ -30,6 +27,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('catalogos');
+        Schema::dropIfExists('planos');
     }
 };
