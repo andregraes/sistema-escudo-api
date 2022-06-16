@@ -13,8 +13,8 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('setup', function (Blueprint $table) {
-            $table->id('idsetup');
+        Schema::create('gerador_catalogo', function (Blueprint $table) {
+            $table->id('idgerador_catalogo');
             $table->string('descricao');
             $table->decimal('valor');
             $table->timestamps();
@@ -28,6 +28,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('setups');
+        Schema::dropIfExists('gerador_catalogos');
     }
 };

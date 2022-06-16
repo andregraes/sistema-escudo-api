@@ -18,10 +18,13 @@ return new class extends Migration
             $table->string('referencia');
             $table->string('nome');
             $table->boolean('is_reciclagem');
-            $table->decimal('valor',6,2);
-            $table->integer('validade');
             $table->foreignIdFor(\App\Models\Formato::class, 'fk_idformato')->nullable();
             $table->foreignIdFor(\App\Models\Nivel::class, 'fk_idnivel')->nullable();
+            $table->foreignIdFor(\App\Models\Scorm::class, 'fk_idscorm')->nullable();
+            $table->decimal('valor',6,2);
+            $table->integer('validade');
+            $table->integer('carga_horaria');
+            $table->binary('thumbnail')->nullable();
             $table->timestamps();
         });
     }

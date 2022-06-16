@@ -15,7 +15,7 @@ return new class extends Migration
     {
         Schema::create('scorm', function (Blueprint $table) {
             $table->id('idscorm');
-            $table->integer('quantidade');
+            //$table->integer('quantidade');
             $table->decimal('indeterminado_cliente_final',10,2);
             $table->decimal('determinado_12_cliente_final',10,2);
             $table->decimal('determinado_24_cliente_final',10,2);

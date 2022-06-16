@@ -12,3 +12,15 @@ npm-debug.log
 yarn-error.log
 /.idea
 /.vscode
+database/seeders/CondicaoSeeder.php
+database/seeders/CursoSeeder.php
+database/seeders/GeradorCatalogoSeeder.php
+database/seeders/MatriculaSeeder.php
+database/seeders/PersonalizacaoSeeder.php
+database/seeders/DatabaseSeeder.php
+database/seeders/PlanoSeeder.php
+database/seeders/SuporteSeeder.php
+database/seeders/SetupSeeder.php
+database/seeders/TreinamentoSeeder.php
+database/seeders/ScormSeeder.php
+database/seeders/CursoSeeder.php

@@ -23,6 +23,7 @@ class CursoSeeder extends Seeder
             'validade'=>2,
             'fk_idformato'=>1,
             'fk_idnivel'=>4,
+            'fk_idscorm'=>1
         ]);
         DB::table('curso')->insert([
             'referencia' => "002400",
@@ -32,7 +33,19 @@ class CursoSeeder extends Seeder
             'validade'=>2,
             'fk_idformato'=>2,
             'fk_idnivel'=>4,
+            'fk_idscorm'=>2
         ]);
+
+        'referencia'=>,
+            'nome'=>,
+            'is_reciclagem'=>,
+            'fk_idformato'=>,
+            'fk_idnivel'=>,
+            'fk_idscorm'=>,
+            'valor'=>,
+            'validade'=>,
+            'carga_horaria'=>,
+            'thumbnail'=>,
     }
 }
 
