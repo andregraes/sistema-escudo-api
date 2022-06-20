@@ -14,12 +14,14 @@ return new class extends Migration
     public function up()
     {
         Schema::create('matricula_avulsa', function (Blueprint $table) {
-            $table->id('idmatricula_avulsa');
+            $table->id();
             $table->string('tipo');
-            $table->decimal('dias_30',8,2);
-             $table->decimal('dias_60',8,2);
- $table->decimal('dias_90',8,2); $table->decimal('dias_180',8,2); $table->decimal('dias_360',8,2);
- $table->foreignIdFor(\App\Models\Curso::class,'fk_idcurso');
+            $table->decimal('dias_30', 8, 2);
+            $table->decimal('dias_60', 8, 2);
+            $table->decimal('dias_90', 8, 2);
+            $table->decimal('dias_180', 8, 2);
+            $table->decimal('dias_360', 8, 2);
+            $table->foreignIdFor(\App\Models\Curso::class, 'fk_idcurso');
             $table->timestamps();
         });
     }

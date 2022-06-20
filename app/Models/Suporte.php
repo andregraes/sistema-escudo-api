@@ -9,4 +9,5 @@ class Suporte extends Model
 {
     use HasFactory;
     protected $table = 'suporte';
+    protected $guarded = [];
 }

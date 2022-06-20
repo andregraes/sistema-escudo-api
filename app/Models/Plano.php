@@ -9,4 +9,5 @@ class Plano extends Model
 {
     use HasFactory;
     protected $table = 'plano';
+    protected $guarded = [];
 }

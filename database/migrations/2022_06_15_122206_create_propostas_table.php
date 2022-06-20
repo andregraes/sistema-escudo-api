@@ -14,9 +14,9 @@ return new class extends Migration
     public function up()
     {
         Schema::create('proposta', function (Blueprint $table) {
-            $table->id('idproposta');
+            $table->id();
             $table->enum('tipo', ['cliente final', 'revenda']);
-            $table->decimal('valor',9,2);
+            $table->decimal('valor', 9, 2);
             $table->string('prazo');
             $table->foreignIdFor(\App\Models\Parceiro::class, 'fk_idparceiro');
             $table->foreignIdFor(\App\Models\Plano::class, 'fk_idplano');

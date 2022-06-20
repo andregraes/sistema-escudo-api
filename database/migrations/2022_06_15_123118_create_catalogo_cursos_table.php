@@ -14,9 +14,9 @@ return new class extends Migration
     public function up()
     {
         Schema::create('catalogo_curso', function (Blueprint $table) {
-//            $table->id();
-$table->foreignIdFor(\App\Models\Catalogo::class, 'fk_idcatalogo');
-$table->foreignIdFor(\App\Models\Curso::class,'fk_idcurso');
+            //            $table->id();
+            $table->foreignIdFor(\App\Models\Catalogo::class, 'fk_idcatalogo');
+            $table->foreignIdFor(\App\Models\Curso::class, 'fk_idcurso');
             $table->timestamps();
         });
     }

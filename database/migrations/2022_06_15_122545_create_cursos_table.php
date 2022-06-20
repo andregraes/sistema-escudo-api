@@ -14,14 +14,14 @@ return new class extends Migration
     public function up()
     {
         Schema::create('curso', function (Blueprint $table) {
-            $table->id('idcurso');
+            $table->id();
             $table->string('referencia');
             $table->string('nome');
             $table->boolean('is_reciclagem');
             $table->foreignIdFor(\App\Models\Formato::class, 'fk_idformato')->nullable();
             $table->foreignIdFor(\App\Models\Nivel::class, 'fk_idnivel')->nullable();
             $table->foreignIdFor(\App\Models\Scorm::class, 'fk_idscorm')->nullable();
-            $table->decimal('valor',6,2);
+            $table->decimal('valor', 6, 2);
             $table->integer('validade');
             $table->integer('carga_horaria');
             $table->binary('thumbnail')->nullable();

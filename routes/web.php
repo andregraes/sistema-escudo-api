@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\ConteudoProgramaticoController;
+use App\Models\ConteudoProgramatico;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -16,3 +18,4 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/cpform', [ConteudoProgramaticoController::class, 'create']);

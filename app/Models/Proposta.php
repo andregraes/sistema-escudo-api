@@ -9,4 +9,5 @@ class Proposta extends Model
 {
     use HasFactory;
     protected $table = 'proposta';
+    protected $guarded = [];
 }

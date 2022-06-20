@@ -9,5 +9,6 @@ class MatriculaAvulsa extends Model
 {
     use HasFactory;
     protected $table = 'matricula_avulsa';
+    protected $guarded = [];
 }
 

@@ -32,7 +32,6 @@ class DatabaseSeeder extends Seeder
         $this->call(TreinamentoSeeder::class);
         $this->call(PersonalizacaoSeeder::class);
         $this->call(SuporteSeeder::class);
-        
-
+        $this->call(ConteudoProgramaticoSeeder::class);
     }
 }

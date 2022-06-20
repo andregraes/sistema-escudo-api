@@ -14,14 +14,14 @@ return new class extends Migration
     public function up()
     {
         Schema::create('scorm', function (Blueprint $table) {
-            $table->id('idscorm');
+            $table->id();
             //$table->integer('quantidade');
-            $table->decimal('indeterminado_cliente_final',10,2);
-            $table->decimal('determinado_12_cliente_final',10,2);
-            $table->decimal('determinado_24_cliente_final',10,2);
-            $table->decimal('indeterminado_revenda',10,2);
-            $table->decimal('determinado_12_revenda',10,2);
-            $table->decimal('determinado_24_revenda',10,2);
+            $table->decimal('indeterminado_cliente_final', 10, 2);
+            $table->decimal('determinado_12_cliente_final', 10, 2);
+            $table->decimal('determinado_24_cliente_final', 10, 2);
+            $table->decimal('indeterminado_revenda', 10, 2);
+            $table->decimal('determinado_12_revenda', 10, 2);
+            $table->decimal('determinado_24_revenda', 10, 2);
             $table->foreignIdFor(\App\Models\Curso::class, 'fk_idcurso');
             $table->timestamps();
         });

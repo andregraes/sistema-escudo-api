@@ -9,4 +9,5 @@ class ConteudoProgramatico extends Model
 {
     use HasFactory;
     protected $table = 'conteudo_programatico';
+    protected $guarded = [];
 }

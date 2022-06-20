@@ -9,4 +9,5 @@ class GeradorCatalogo extends Model
 {
     use HasFactory;
     protected $table = 'gerador_catalogo';
+    protected $guarded = [];
 }

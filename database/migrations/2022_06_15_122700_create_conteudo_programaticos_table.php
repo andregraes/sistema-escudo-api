@@ -14,10 +14,10 @@ return new class extends Migration
     public function up()
     {
         Schema::create('conteudo_programatico', function (Blueprint $table) {
-            $table->id('idconteudo_programatico');
+            $table->id();
             $table->string('descricao');
-            $table->foreignIdFor(\App\Models\ConteudoProgramatico::class, 'fk_idconteudo_programatico');
-            $table->foreignIdFor(\App\Models\Curso::class, 'fk_idcurso');
+            $table->foreignIdFor(\App\Models\ConteudoProgramatico::class, 'fk_idconteudo_programatico')->nullable();
+            $table->foreignIdFor(\App\Models\Curso::class, 'fk_idcurso')->nullable();
             $table->timestamps();
         });
     }

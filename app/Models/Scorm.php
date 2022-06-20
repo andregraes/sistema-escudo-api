@@ -9,4 +9,5 @@ class Scorm extends Model
 {
     use HasFactory;
     protected $table = 'scorm';
+    protected $guarded = [];
 }

@@ -9,4 +9,5 @@ class Parceiro extends Model
 {
     use HasFactory;
     protected $table = 'parceiro';
+    protected $guarded = [];
 }

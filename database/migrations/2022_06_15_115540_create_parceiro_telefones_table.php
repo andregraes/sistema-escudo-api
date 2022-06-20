@@ -14,10 +14,10 @@ return new class extends Migration
     public function up()
     {
         Schema::create('parceiro_telefone', function (Blueprint $table) {
-            $table->id('idtelefone');
+            $table->id();
             $table->string('numero');
-            $table->enum('tipo',['comercial','whatsapp','celular']);
-            $table->foreignIdFor(\App\Models\Parceiro::class,'fk_idparceiro')->nullable();
+            $table->enum('tipo', ['comercial', 'whatsapp', 'celular']);
+            $table->foreignIdFor(\App\Models\Parceiro::class, 'fk_idparceiro')->nullable();
             $table->timestamps();
         });
     }

@@ -14,7 +14,7 @@ return new class extends Migration
     public function up()
     {
         Schema::create('gerador_catalogo', function (Blueprint $table) {
-            $table->id('idgerador_catalogo');
+            $table->id();
             $table->string('descricao');
             $table->decimal('valor');
             $table->timestamps();

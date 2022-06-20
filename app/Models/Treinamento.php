@@ -9,4 +9,5 @@ class Treinamento extends Model
 {
     use HasFactory;
     protected $table = 'treinamento';
+    protected $guarded = [];
 }

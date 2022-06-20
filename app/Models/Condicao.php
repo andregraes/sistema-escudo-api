@@ -9,4 +9,5 @@ class Condicao extends Model
 {
     use HasFactory;
     protected $table = 'condicao';
+    protected $guarded = [];
 }

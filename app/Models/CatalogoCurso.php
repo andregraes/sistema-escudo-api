@@ -9,4 +9,5 @@ class CatalogoCurso extends Model
 {
     use HasFactory;
     protected $table = 'catalogo_curso';
+    protected $guarded = [];
 }

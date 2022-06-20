@@ -9,4 +9,16 @@ class Curso extends Model
 {
     use HasFactory;
     protected $table = 'curso';
+    protected $fillable = [
+        'referencia',
+        'nome',
+        'is_reciclagem',
+        'fk_idformato',
+        'fk_idnivel',
+        'fk_idscorm',
+        'valor',
+        'validade',
+        'carga_horaria',
+        'thumbnail'
+    ];
 }

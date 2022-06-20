@@ -14,10 +14,10 @@ return new class extends Migration
     public function up()
     {
         Schema::create('suporte', function (Blueprint $table) {
-            $table->id('idsuporte');
+            $table->id();
             $table->string('descricao');
             $table->integer('quantidade');
-            $table->decimal('valor',10,2);
+            $table->decimal('valor', 10, 2);
             $table->timestamps();
         });
     }

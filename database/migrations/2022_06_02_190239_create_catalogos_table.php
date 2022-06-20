@@ -14,12 +14,11 @@ return new class extends Migration
     public function up()
     {
         Schema::create('catalogo', function (Blueprint $table) {
-            $table->id('idcatalogo');
-            $table->foreignIdFor(\App\Models\Parceiro::class,'fk_idparceiro');
+            $table->id();
+            $table->foreignIdFor(\App\Models\Parceiro::class, 'fk_idparceiro');
             $table->boolean('mostrar_precos');
             //$table->
             $table->timestamps();
-
         });
     }
 

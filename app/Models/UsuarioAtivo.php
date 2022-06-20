@@ -9,4 +9,5 @@ class UsuarioAtivo extends Model
 {
     use HasFactory;
     protected $table = 'usuario_ativo';
+    protected $guarded = [];
 }
