@@ -36,6 +36,8 @@ class ConteudoProgramaticoController extends Controller
      */
     public function store(StoreConteudoProgramaticoRequest $request)
     {
+        //dd($request);
+
         //
         /*$request->validate([
             'referencia' => 'required'
