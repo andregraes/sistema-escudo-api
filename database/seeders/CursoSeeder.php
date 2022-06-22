@@ -32,7 +32,7 @@ class CursoSeeder extends Seeder
             'texto_curto' => "",
             'descricao' => "",
             'video' => null,
-            'thumbnail' => null,
+            'thumbnail' => 'thumbs/001400.png',
             'fk_idscorm' => null,
         ]);
         DB::table('curso')->insert([
@@ -49,7 +49,7 @@ class CursoSeeder extends Seeder
             'texto_curto' => "",
             'descricao' => "",
             'video' => null,
-            'thumbnail' => null,
+            'thumbnail' => 'thumbs/002400.png',
             'fk_idscorm' => null,
         ]);
         DB::table('curso')->insert([
@@ -66,7 +66,7 @@ class CursoSeeder extends Seeder
             'texto_curto' => 'Auxilie na capacitação básica de estudantes, profissionais de saúde e colaboradores interessados na área.',
             'descricao' =>   'Auxilie na capacitação básica de estudantes, profissionais de saúde e colaboradores interessados na área, a prestarem atendimento Pré-Hospitalar de Urgência e Emergência em uma plataforma 100% em conformidade com a NR 1.',
             'video' => null,
-            'thumbnail' => null,
+            'thumbnail' => 'thumbs/003100.png',
             'fk_idscorm' => null,
         ]);
         DB::table('curso')->insert([
@@ -83,7 +83,7 @@ class CursoSeeder extends Seeder
             'texto_curto' => 'Ofereça aos seus clientes treinamento em nível intermediário para a prestação de primeiros socorros.',
             'descricao' =>  'Ofereça aos seus clientes treinamento em nível intermediário para a prestação de primeiros socorros a pacientes com risco de vida, de forma extremamente fácil e intuitiva em uma plataforma 100% em conformidade com a NR 1.',
             'video' => null,
-            'thumbnail' => null,
+            'thumbnail' => 'thumbs/003200.png',
             'fk_idscorm' => null,
         ]);
         DB::table('curso')->insert([
@@ -100,7 +100,7 @@ class CursoSeeder extends Seeder
             'texto_curto' => "",
             'descricao' => "",
             'video' => null,
-            'thumbnail' => null,
+            'thumbnail' => 'thumbs/004400.png',
             'fk_idscorm' => null,
         ]);
         DB::table('curso')->insert([
@@ -117,7 +117,7 @@ class CursoSeeder extends Seeder
             'texto_curto' => 'Capacite o profissional que atua na operação e controle de caldeiras, conforme a norma regulamentadora',
             'descricao' =>  'Curso é destinado aos trabalhadores envolvidos, direta ou indiretamente, com a operação das instalações. O treinamento estabelece requisitos mínimos para gestão da integridade estrutural de caldeira a vapor, nos aspectos relacionados á instalação, a inspeção, a operação e manutenção, visando a segurança e à saúde dos trabalhadores.',
             'video' => null,
-            'thumbnail' => null,
+            'thumbnail' => 'thumbs/005400.png',
             'fk_idscorm' => null,
         ]);
         DB::table('curso')->insert([
@@ -134,7 +134,7 @@ class CursoSeeder extends Seeder
             'texto_curto' => 'Capacite seus trabalhadores que operam unidades de processo com vasos de pressão.',
             'descricao' =>  'Disponibilize aos seus clientes o melhor sistema de gestão de treinamentos SST. Inteligente e intuitivo, ele permite que os profissionais sejam capacitados com as melhores práticas de operação nas unidades de processo de acordo com a NR 13, e com tutores especialistas aptos para dar suporte aos alunos.',
             'video' => null,
-            'thumbnail' => null,
+            'thumbnail' => 'thumbs/006400.png',
             'fk_idscorm' => null,
         ]);
         DB::table('curso')->insert([
@@ -151,7 +151,7 @@ class CursoSeeder extends Seeder
             'texto_curto' => 'Convide seus clientes a oferecerem um curso para motoristas sobre Direção defensiva.',
             'descricao'  => 'Convide seus clientes a oferecerem um curso para motoristas sobre Direção defensiva para que os profissionais conduzam seus veículos de forma segura e preventiva, tendo durante o curso o apoio de instrutores especialistas.',
             'video' => null,
-            'thumbnail' => null,
+            'thumbnail' => 'thumbs/007400.png',
             'fk_idscorm' => null,
         ]);
         DB::table('curso')->insert([
@@ -168,7 +168,7 @@ class CursoSeeder extends Seeder
             'texto_curto' => 'Este treinamento capacitará froteiros para a condução segura dos veículos.',
             'descricao' =>  'Este treinamento capacitará froteiros para a condução segura dos veículos, ensinando-os a evitar comportamentos inadequados que podem causar acidentes no trânsito, com certificados emitidos automaticamente e válidos em todo o Brasil.',
             'video' => null,
-            'thumbnail' => null,
+            'thumbnail' => 'thumbs/008400.png',
             'fk_idscorm' => null,
         ]);
         DB::table('curso')->insert([
@@ -185,7 +185,7 @@ class CursoSeeder extends Seeder
             'texto_curto' => 'Em 11 módulos completos que juntam teoria e prática.',
             'descricao'  => 'Em 11 módulos completos que juntam teoria e prática, leve qualidade a profissionais brigadistas e colaboradores para minimizar perdas e incidentes na empresa, afinal, acreditamos que trabalhadores seguros são trabalhadores motivados.',
             'video' => null,
-            'thumbnail' => null,
+            'thumbnail' => 'thumbs/009300.png',
             'fk_idscorm' => null,
         ]);
         DB::table('curso')->insert([
@@ -202,7 +202,7 @@ class CursoSeeder extends Seeder
             'texto_curto' => 'Ajude empresas a reciclar seus colaboradores para atuar em suas brigadas internas e equipes de CIPA.',
             'descricao' => 'Ajude empresas a reciclar seus colaboradores para atuar em suas brigadas internas e equipes de CIPA, minimizando as perdas, preservando vidas, e resguardando o patrimônio da empresa, além disso, todos os nossos profissionais são comprometidos em entregar treinamentos de altíssima qualidade para o seu cliente.',
             'video' => null,
-            'thumbnail' => null,
+            'thumbnail' => 'thumbs/009310.png',
             'fk_idscorm' => null,
         ]);
         DB::table('curso')->insert([
@@ -219,7 +219,7 @@ class CursoSeeder extends Seeder
             'texto_curto' => 'Trabalhamos com o conceito QSMS-RS e Sustentabilidade para ajudar seus clientes a capacitarem colaboradores.',
             'descricao' =>   'Trabalhamos com o conceito QSMS-RS e Sustentabilidade para ajudar seus clientes a capacitarem colaboradores que atuam nas brigadas internas e equipes de CIPA, com cursos de altíssima qualidade que promovem grande interação dos alunos com os conteúdos disponibilizados.',
             'video' => null,
-            'thumbnail' => null,
+            'thumbnail' => 'thumbs/009100.png',
             'fk_idscorm' => null,
         ]);
         DB::table('curso')->insert([
@@ -236,7 +236,7 @@ class CursoSeeder extends Seeder
             'texto_curto' => 'Ofereça reciclagem básica aos profissionais das áreas de indústrias, hotéis, comércios, e empresas em geral.',
             'descricao' =>   'Ofereça reciclagem básica aos profissionais das áreas de indústrias, hotéis, comércios, e empresas em geral para atuarem em suas brigadas internas e equipes de CIPA. O curso aborda conteúdos relevantes que vão dar suporte correto para a atuação dos profissionais e tutores especializados na área.',
             'video' => null,
-            'thumbnail' => null,
+            'thumbnail' => 'thumbs/009110.png',
             'fk_idscorm' => null,
         ]);
         DB::table('curso')->insert([
@@ -253,7 +253,7 @@ class CursoSeeder extends Seeder
             'texto_curto' => 'Ofereça soluções em capacitações profissionais dos setores da indústria, hotéis, comércios.',
             'descricao' =>   'Ofereça soluções em capacitações profissionais dos setores da indústria, hotéis, comércios, varejo e empresas em geral, para estarem aptos a agir em momentos de risco. O profissional conta com aulas práticas e teóricas ministradas por especialistas da área.',
             'video' => null,
-            'thumbnail' => null,
+            'thumbnail' => 'thumbs/009200.png',
             'fk_idscorm' => null,
         ]);
         DB::table('curso')->insert([
@@ -270,7 +270,7 @@ class CursoSeeder extends Seeder
             'texto_curto' => 'Seus clientes podem reduzir custos com treinamentos obrigatórios, oferecemos turmas de todos os tamanhos.,
 descricao',
             'video' => null,
-            'thumbnail' => null,
+            'thumbnail' => 'thumbs/009210.png',
             'fk_idscorm' => null,
         ]);
         DB::table('curso')->insert([
@@ -287,7 +287,7 @@ descricao',
             'texto_curto' => "",
             'descricao' => "",
             'video' => null,
-            'thumbnail' => null,
+            'thumbnail' => 'thumbs/009301.png',
             'fk_idscorm' => null,
         ]);
         DB::table('curso')->insert([
@@ -304,7 +304,7 @@ descricao',
             'texto_curto' => 'Ajude empresas a reciclar seus colaboradores para atuar em suas brigadas internas e equipes de CIPA.',
             'descricao' =>  'Ajude empresas a reciclar seus colaboradores para atuar em suas brigadas internas e equipes de CIPA, minimizando as perdas, preservando vidas, e resguardando o patrimônio da empresa, além disso, todos os nossos profissionais são comprometidos em entregar treinamentos de altíssima qualidade para o seu cliente.',
             'video' => null,
-            'thumbnail' => null,
+            'thumbnail' => 'thumbs/009311.png',
             'fk_idscorm' => null,
         ]);
         DB::table('curso')->insert([
@@ -321,7 +321,7 @@ descricao',
             'texto_curto' => "",
             'descricao' => "",
             'video' => null,
-            'thumbnail' => null,
+            'thumbnail' => 'thumbs/009101.png',
             'fk_idscorm' => null,
         ]);
         DB::table('curso')->insert([
@@ -338,7 +338,7 @@ descricao',
             'texto_curto' => "",
             'descricao' => "",
             'video' => null,
-            'thumbnail' => null,
+            'thumbnail' => 'thumbs/009111.png',
             'fk_idscorm' => null,
         ]);
         DB::table('curso')->insert([
@@ -355,7 +355,7 @@ descricao',
             'texto_curto' => 'Seus clientes podem reduzir custos com treinamentos obrigatórios, oferecemos turmas de todos os tamanhos.',
             'descricao' =>   'Seus clientes podem reduzir custos com treinamentos obrigatórios, oferecemos turmas de todos os tamanhos, que se iniciam a qualquer momento, com o intuito de capacitar profissionais das mais diversas áreas a estarem aptos para ação durante o combate ao incêndio, conforme a Instrução técnica nº. 17/2014 - SP.',
             'video' => null,
-            'thumbnail' => null,
+            'thumbnail' => 'thumbs/009201.png',
             'fk_idscorm' => null,
         ]);
         DB::table('curso')->insert([
@@ -372,7 +372,7 @@ descricao',
             'texto_curto' => "",
             'descricao' => "",
             'video' => null,
-            'thumbnail' => null,
+            'thumbnail' => 'thumbs/009211.png',
             'fk_idscorm' => null,
         ]);
         DB::table('curso')->insert([
@@ -389,7 +389,7 @@ descricao',
             'texto_curto' => "",
             'descricao' => "",
             'video' => null,
-            'thumbnail' => null,
+            'thumbnail' => 'thumbs/010400.png',
             'fk_idscorm' => null,
         ]);
         DB::table('curso')->insert([
@@ -406,7 +406,7 @@ descricao',
             'texto_curto' => "",
             'descricao' => "",
             'video' => null,
-            'thumbnail' => null,
+            'thumbnail' => 'thumbs/011400.png',
             'fk_idscorm' => null,
         ]);
         DB::table('curso')->insert([
@@ -423,7 +423,7 @@ descricao',
             'texto_curto' => 'Venha capacitar profissionais com os melhores instrutores especialistas em SST.',
             'descricao' =>   'Venha capacitar profissionais com os melhores instrutores especialistas em SST para conhecerem a anatomia do corpo humano, identificar órgãos, sistemas corporais e reportar lesões. A nossa plataforma de ensino online está disponível 24 horas por dia.',
             'video' => null,
-            'thumbnail' => null,
+            'thumbnail' => 'thumbs/012400.png',
             'fk_idscorm' => null,
         ]);
         DB::table('curso')->insert([
@@ -440,7 +440,7 @@ descricao',
             'texto_curto' => "",
             'descricao' => "",
             'video' => null,
-            'thumbnail' => null,
+            'thumbnail' => 'thumbs/013400.png',
             'fk_idscorm' => null,
         ]);
         DB::table('curso')->insert([
@@ -457,7 +457,7 @@ descricao',
             'texto_curto' => 'O treinamento NR10 Básico do é destinado aos profissionais que desejam atuar como eletricistas.',
             'descricao' =>   'Com certificação válida em todo o território nacional, capacite trabalhadores do setor elétrico a intervir em instalações com possíveis riscos, e a agir preventivamente de maneira excelente em conformidade com a NR 1.',
             'video' => null,
-            'thumbnail' => null,
+            'thumbnail' => 'thumbs/014100.png',
             'fk_idscorm' => null,
         ]);
         DB::table('curso')->insert([
@@ -474,7 +474,7 @@ descricao',
             'texto_curto' => 'O treinamento NR10 Básico do é destinado aos profissionais que desejam atuar como eletricistas.',
             'descricao' =>   'Auxilie seus clientes na reciclagem de profissionais para minimizar as perdas, otimizar os indicadores de afastamento aplicados à NR 10 e diminuir os afastamentos.',
             'video' => null,
-            'thumbnail' => null,
+            'thumbnail' => 'thumbs/014410.png',
             'fk_idscorm' => null,
         ]);
         DB::table('curso')->insert([
@@ -491,7 +491,7 @@ descricao',
             'texto_curto' => "",
             'descricao' => "",
             'video' => null,
-            'thumbnail' => null,
+            'thumbnail' => 'thumbs/015410.png',
             'fk_idscorm' => null,
         ]);
         DB::table('curso')->insert([
@@ -508,7 +508,7 @@ descricao',
             'texto_curto' => 'O treinamento NR10 Segurança Elétrica SEP é destinado aos profissionais que desejam atuar como eletricistas.',
             'descricao' => 'Treine profissionais com metodologias de ensino reconhecidas internacionalmente. Ajude-os a observar a NR10 para que possam prevenir acidentes por meio de técnicas eficientes para o controle dos riscos e perigos elétricos envolvidos com o SEP.',
             'video' => null,
-            'thumbnail' => null,
+            'thumbnail' => 'thumbs/015400.png',
             'fk_idscorm' => null,
         ]);
         DB::table('curso')->insert([
@@ -525,7 +525,7 @@ descricao',
             'texto_curto' => 'Todos os trabalhadores envolvidos no transporte e movimentação com uso de empilhadeira.',
             'descricao' =>  'Ofereça aos seus clientes, capacitação de acordo com a NR11, com o intuito de conscientizar os trabalhadores sobre os riscos existentes na operação e a importância de seguir todas as normas, por meio das nossas soluções de treinamentos SST 100% digital.',
             'video' => null,
-            'thumbnail' => null,
+            'thumbnail' => 'thumbs/016400.png',
             'fk_idscorm' => null,
         ]);
         DB::table('curso')->insert([
@@ -542,7 +542,7 @@ descricao',
             'texto_curto' => 'Todos os trabalhadores envolvidos no transporte e movimentação com uso de empilhadeira.',
             'descricao' =>  'Reciclar profissionais para dominarem os conceitos básicos de segurança conforme a NR11, nos processos de levantamento, transporte e descargas, de forma manual ou com máquinas é essencial. E com os treinamentos do Sistema Escudo, seus clientes terão auxílio de instrutores com proficiência no assunto para sanar dúvidas relacionadas ao treinamento.',
             'video' => null,
-            'thumbnail' => null,
+            'thumbnail' => 'thumbs/016410.png',
             'fk_idscorm' => null,
         ]);
         DB::table('curso')->insert([
@@ -559,7 +559,7 @@ descricao',
             'texto_curto' => 'Este treinamento é obrigatório para trabalhadores envolvidos na operação.',
             'descricao' => 'Auxilie empresas a dar treinamentos inteligentes em SST. Neste curso os profissionais aprenderão a fazer o correto manuseio de máquinas e equipamentos com os métodos em que se aplica a NR12. São 5 módulos completos entre teoria e prática.',
             'video' => null,
-            'thumbnail' => null,
+            'thumbnail' => 'thumbs/017400.png',
             'fk_idscorm' => null,
         ]);
         DB::table('curso')->insert([
@@ -576,7 +576,7 @@ descricao',
             'texto_curto' => 'Este treinamento é obrigatório para trabalhadores envolvidos na operação, manutenção, inspeção ou intervenção de máquinas.',
             'descricao' =>   'Convide seus clientes a reciclarem seus profissionais com excelência para a operação durante o manuseio dos equipamentos e máquinas em conformidade com a NR12. Com aulas práticas e teóricas, a empresa pode treinar seus colaboradores com baixo custo e alta qualidade no ensino.',
             'video' => null,
-            'thumbnail' => null,
+            'thumbnail' => 'thumbs/017410.png',
             'fk_idscorm' => null,
         ]);
         DB::table('curso')->insert([
@@ -593,7 +593,7 @@ descricao',
             'texto_curto' => 'Treine profissionais em conformidade com a NR 17 e com as tecnologias educacionais mais modernas.',
             'descricao' =>   'Treine profissionais em conformidade com a NR 17 e com as tecnologias educacionais mais modernas. São 2 horas de habilitação para que eles possam trabalhar de forma a respeitar a ergonomia no ambiente de trabalho, evitando danos ao corpo e doenças decorrentes do ofício, como a LER e DORT.',
             'video' => null,
-            'thumbnail' => null,
+            'thumbnail' => 'thumbs/018400.png',
             'fk_idscorm' => null,
         ]);
         DB::table('curso')->insert([
@@ -610,7 +610,7 @@ descricao',
             'texto_curto' => 'Ajude seus clientes a capacitarem operadores de checkout.',
             'descricao' =>   'Ajude seus clientes a capacitarem operadores de checkout de acordo com as regras ergonômicas definidas no Anexo I da NR 17, através de uma plataforma digital, prática e 100% em conformidade com a legislação.',
             'video' => null,
-            'thumbnail' => null,
+            'thumbnail' => 'thumbs/019400.png',
             'fk_idscorm' => null,
         ]);
         DB::table('curso')->insert([
@@ -627,7 +627,7 @@ descricao',
             'texto_curto' => 'Capacite profissionais acerca dos procedimentos obrigatórios básicos previstos na NR 17',
             'descricao' =>   'Capacite profissionais acerca dos procedimentos obrigatórios básicos previstos na NR 17 com treinamentos acessíveis, fáceis de manejar e intuitivos para o seu trabalhador.',
             'video' => null,
-            'thumbnail' => null,
+            'thumbnail' => 'thumbs/020400.png',
             'fk_idscorm' => null,
         ]);
         DB::table('curso')->insert([
@@ -644,12 +644,12 @@ descricao',
             'texto_curto' => 'Ofereça soluções em treinamentos digitais para profissionais de teleatendimento.',
             'descricao' =>   'Ofereça soluções em treinamentos digitais para profissionais de teleatendimento ou telemarketing com as melhores práticas ergonômicas.',
             'video' => null,
-            'thumbnail' => null,
+            'thumbnail' => 'thumbs/021400.png',
             'fk_idscorm' => null,
         ]);
         DB::table('curso')->insert([
             'referencia' => '022301',
-            'nome' => 'NR20 Avançado I',
+            'nome' => 'NR20 - Avançado I',
             'is_reciclagem' => 0,
             'pratica_obrigatoria' => 1,
             'carga_horaria_pratica' =>   null,
@@ -661,12 +661,12 @@ descricao',
             'texto_curto' => 'Capacite trabalhadores ao nível avançado em conformidade com a NR 20.',
             'descricao' =>   'Capacite trabalhadores em nível avançado em conformidade com a NR 20, para que eles possam cumprir integralmente as exigências legais.Todos os treinamentos são fáceis e intuitivos, estimulando o engajamento dos alunos.',
             'video' => null,
-            'thumbnail' => null,
+            'thumbnail' => 'thumbs/022301.png',
             'fk_idscorm' => null,
         ]);
         DB::table('curso')->insert([
             'referencia' => '022311',
-            'nome' => 'NR20 Avançado I',
+            'nome' => 'NR20 - Avançado I',
             'is_reciclagem' => 1,
             'pratica_obrigatoria' => 1,
             'carga_horaria_pratica' =>   null,
@@ -678,12 +678,12 @@ descricao',
             'texto_curto' => 'Ofereça aos seus clientes treinamentos de reciclagem avançados para profissionais que trabalham com inflamáveis.',
             'descricao' =>   'Ofereça aos seus clientes treinamentos de reciclagem avançados para profissionais que trabalham com inflamáveis e combustíveis, em uma plataforma digital que oferece o apoio de instrutores especialista durante todo o período do curso.',
             'video' => null,
-            'thumbnail' => null,
+            'thumbnail' => 'thumbs/022311.png',
             'fk_idscorm' => null,
         ]);
         DB::table('curso')->insert([
             'referencia' => '022302',
-            'nome' => 'NR20 Avançado II',
+            'nome' => 'NR20 - Avançado II',
             'is_reciclagem' => 0,
             'pratica_obrigatoria' => 1,
             'carga_horaria_pratica' =>   null,
@@ -695,12 +695,12 @@ descricao',
             'texto_curto' => 'Prepare profissionais em um nível avançado, de acordo com a NR 20.',
             'descricao' =>   'Prepare profissionais em um nível avançado, de acordo com a NR 20, para executar com segurança serviços que envolvem inflamáveis e combustíveis da maneira correta. São 6 módulos completos com ensino teórico e prático com os melhores tutores do Brasil.',
             'video' => null,
-            'thumbnail' => null,
+            'thumbnail' => 'thumbs/022302.png',
             'fk_idscorm' => null,
         ]);
         DB::table('curso')->insert([
             'referencia' => '022312',
-            'nome' => 'NR20 Avançado II',
+            'nome' => 'NR20 - Avançado II',
             'is_reciclagem' => 1,
             'pratica_obrigatoria' => 1,
             'carga_horaria_pratica' =>   null,
@@ -712,12 +712,12 @@ descricao',
             'texto_curto' => 'Recicle colaboradores com um método de aprendizagem tecnológico, moderno.',
             'descricao' =>   'Recicle colaboradores com um método de aprendizagem tecnológico, moderno e de altíssima qualidade, para que eles possam cumprir as exigências da NR 20 durante o contato com inflamáveis e combustíveis, e garantir um certificado válido em todo o país.',
             'video' => null,
-            'thumbnail' => null,
+            'thumbnail' => 'thumbs/022312.png',
             'fk_idscorm' => null,
         ]);
         DB::table('curso')->insert([
             'referencia' => '022110',
-            'nome' => 'NR20 Básico',
+            'nome' => 'NR20 - Básico',
             'is_reciclagem' => 1,
             'pratica_obrigatoria' => 1,
             'carga_horaria_pratica' =>   null,
@@ -729,12 +729,12 @@ descricao',
             'texto_curto' => "",
             'descricao' => "",
             'video' => null,
-            'thumbnail' => null,
+            'thumbnail' => 'thumbs/022110.png',
             'fk_idscorm' => null,
         ]);
         DB::table('curso')->insert([
             'referencia' => '022101',
-            'nome' => 'NR20 Básico Classe I',
+            'nome' => 'NR20 - Básico Classe I',
             'is_reciclagem' => 0,
             'pratica_obrigatoria' => 1,
             'carga_horaria_pratica' =>   null,
@@ -746,12 +746,12 @@ descricao',
             'texto_curto' => 'Capacite de forma remota e semipresencial trabalhadores que realizam atividades em instalações classe I.',
             'descricao' =>   'Capacite de forma remota e semipresencial trabalhadores que realizam atividades em instalações classe I, para que mantenham os processos de segurança durante todo o horário de trabalho observando e prevenindo riscos, de acordo com a nova NR.',
             'video' => null,
-            'thumbnail' => null,
+            'thumbnail' => 'thumbs/022101.png',
             'fk_idscorm' => null,
         ]);
         DB::table('curso')->insert([
             'referencia' => '022102',
-            'nome' => 'NR20 Básico Classe II',
+            'nome' => 'NR20 - Básico Classe II',
             'is_reciclagem' => 0,
             'pratica_obrigatoria' => 1,
             'carga_horaria_pratica' =>   null,
@@ -763,12 +763,12 @@ descricao',
             'texto_curto' => 'Com métodos modernos e tecnológicos de aprendizagem.',
             'descricao' =>   'Com métodos modernos e tecnológicos de aprendizagem, capacite profissionais para que cumpram exigências legais da NR 20 de forma intuitiva e em conformidade com a NR 1.',
             'video' => null,
-            'thumbnail' => null,
+            'thumbnail' => 'thumbs/022102.png',
             'fk_idscorm' => null,
         ]);
         DB::table('curso')->insert([
             'referencia' => '022103',
-            'nome' => 'NR20 Básico Classe III',
+            'nome' => 'NR20 - Básico Classe III',
             'is_reciclagem' => 0,
             'pratica_obrigatoria' => 1,
             'carga_horaria_pratica' =>   null,
@@ -780,12 +780,12 @@ descricao',
             'texto_curto' => 'Capacite trabalhadores que lidam diretamente com instalações de classe III.',
             'descricao' =>   'Capacite trabalhadores que lidam diretamente com instalações de classe III em turmas que podem ser personalizadas de acordo com as necessidades do seu cliente e começar a qualquer momento.',
             'video' => null,
-            'thumbnail' => null,
+            'thumbnail' => 'thumbs/022103.png',
             'fk_idscorm' => null,
         ]);
         DB::table('curso')->insert([
-            'referencia' => '023400',
-            'nome' => 'NR20 Iniciação sobre Inflamáveis e Combustíveis',
+            'referencia' => '022000',
+            'nome' => 'NR20 - Iniciação sobre Inflamáveis e Combustíveis',
             'is_reciclagem' => 0,
             'pratica_obrigatoria' => 0,
             'carga_horaria_pratica' =>   null,
@@ -797,12 +797,12 @@ descricao',
             'texto_curto' => "",
             'descricao' => "",
             'video' => null,
-            'thumbnail' => null,
+            'thumbnail' => 'thumbs/022000.png',
             'fk_idscorm' => null,
         ]);
         DB::table('curso')->insert([
-            'referencia' => '023410',
-            'nome' => 'NR20 Iniciação sobre Inflamáveis e Combustíveis',
+            'referencia' => '022010',
+            'nome' => 'NR20 - Iniciação sobre Inflamáveis e Combustíveis',
             'is_reciclagem' => 1,
             'pratica_obrigatoria' => 0,
             'carga_horaria_pratica' =>   null,
@@ -814,12 +814,12 @@ descricao',
             'texto_curto' => "",
             'descricao' => "",
             'video' => null,
-            'thumbnail' => null,
+            'thumbnail' => 'thumbs/022010.png',
             'fk_idscorm' => null,
         ]);
         DB::table('curso')->insert([
             'referencia' => '022200',
-            'nome' => 'NR20 Intermediário',
+            'nome' => 'NR20 - Intermediário',
             'is_reciclagem' => 0,
             'pratica_obrigatoria' => 0,
             'carga_horaria_pratica' =>   null,
@@ -831,12 +831,12 @@ descricao',
             'texto_curto' => "",
             'descricao' => "",
             'video' => null,
-            'thumbnail' => null,
+            'thumbnail' => 'thumbs/022200.png',
             'fk_idscorm' => null,
         ]);
         DB::table('curso')->insert([
             'referencia' => '022210',
-            'nome' => 'NR20 Intermediário',
+            'nome' => 'NR20 - Intermediário',
             'is_reciclagem' => 1,
             'pratica_obrigatoria' => 1,
             'carga_horaria_pratica' =>   null,
@@ -848,12 +848,12 @@ descricao',
             'texto_curto' => "",
             'descricao' => "",
             'video' => null,
-            'thumbnail' => null,
+            'thumbnail' => 'thumbs/022210.png',
             'fk_idscorm' => null,
         ]);
         DB::table('curso')->insert([
             'referencia' => '022201',
-            'nome' => 'NR20 Intermediário Classe I',
+            'nome' => 'NR20 - Intermediário Classe I',
             'is_reciclagem' => 0,
             'pratica_obrigatoria' => 1,
             'carga_horaria_pratica' =>   null,
@@ -865,12 +865,12 @@ descricao',
             'texto_curto' => 'Ajude seus clientes a capacitarem de forma remota colaboradores de instalações classe I.',
             'descricao' =>   'Ajude seus clientes a capacitarem de forma remota colaboradores de instalações classe I, de acordo com a NR 20, para que zelem pela segurança ao adentrarem nas áreas de extração, produção, armazenamento, transferência, manuseio e manipulação de inflamáveis.',
             'video' => null,
-            'thumbnail' => null,
+            'thumbnail' => 'thumbs/022201.png',
             'fk_idscorm' => null,
         ]);
         DB::table('curso')->insert([
             'referencia' => '022202',
-            'nome' => 'NR20 Intermediário Classe II',
+            'nome' => 'NR20 - Intermediário Classe II',
             'is_reciclagem' => 0,
             'pratica_obrigatoria' => 1,
             'carga_horaria_pratica' =>   null,
@@ -882,12 +882,12 @@ descricao',
             'texto_curto' => 'Auxilie clientes a capacitarem trabalhadores em nível intermediário para lidarem com instalações classe II.',
             'descricao' =>   'Auxilie clientes a capacitarem trabalhadores em nível intermediário para lidarem com instalações classe II, mantendo as boas práticas de segurança da NR 20, em uma plataforma digital, intuitiva e 100% em conformidade com a NR 1.',
             'video' => null,
-            'thumbnail' => null,
+            'thumbnail' => 'thumbs/022202.png',
             'fk_idscorm' => null,
         ]);
         DB::table('curso')->insert([
             'referencia' => '022203',
-            'nome' => 'NR20 Intermediário Classe III',
+            'nome' => 'NR20 - Intermediário Classe III',
             'is_reciclagem' => 0,
             'pratica_obrigatoria' => 1,
             'carga_horaria_pratica' =>   null,
@@ -899,12 +899,12 @@ descricao',
             'texto_curto' => 'Disponibilize treinamentos virtuais a trabalhadores sobre as boas práticas contidas na NR 20.',
             'descricao' =>   'Disponibilize treinamentos virtuais a trabalhadores sobre as boas práticas contidas na NR 20, com o uso de tecnologias educacionais modernas e eficientes para garantir a melhor experiência de aprendizagem para o aluno.',
             'video' => null,
-            'thumbnail' => null,
+            'thumbnail' => 'thumbs/022203.png',
             'fk_idscorm' => null,
         ]);
         DB::table('curso')->insert([
             'referencia' => '022214',
-            'nome' => 'NR 20 Intermediário Classes I, II e III',
+            'nome' => 'NR 20 - Intermediário Classes I, II e III',
             'is_reciclagem' => 1,
             'pratica_obrigatoria' => 0,
             'carga_horaria_pratica' =>   null,
@@ -916,12 +916,12 @@ descricao',
             'texto_curto' => 'Qualifique profissionais com os melhores instrutores especialistas em SST para poderem lidar com instalações classes I, II e III.',
             'descricao' => 'Qualifique profissionais com os melhores instrutores especialistas em SST para que possam lidar com instalações classes I, II e III, em conformidade com a NR 20, aprendendo sobre as melhores práticas ao adentrar o local de manipulação de inflamáveis e líquidos.',
             'video' => null,
-            'thumbnail' => null,
+            'thumbnail' => 'thumbs/022214.png',
             'fk_idscorm' => null,
         ]);
         DB::table('curso')->insert([
-            'referencia' => '022401',
-            'nome' => 'NR20 Específico Classe I',
+            'referencia' => '023401',
+            'nome' => 'NR20 - Específico Classe I',
             'is_reciclagem' => 0,
             'pratica_obrigatoria' => 0,
             'carga_horaria_pratica' =>   null,
@@ -933,12 +933,12 @@ descricao',
             'texto_curto' => "",
             'descricao' => "",
             'video' => null,
-            'thumbnail' => null,
+            'thumbnail' => 'thumbs/023401.png',
             'fk_idscorm' => null,
         ]);
         DB::table('curso')->insert([
-            'referencia' => '022402',
-            'nome' => 'NR20 Específico Classe II',
+            'referencia' => '023402',
+            'nome' => 'NR20 - Específico Classe II',
             'is_reciclagem' => 0,
             'pratica_obrigatoria' => 0,
             'carga_horaria_pratica' =>   null,
@@ -950,12 +950,12 @@ descricao',
             'texto_curto' => "",
             'descricao' => "",
             'video' => null,
-            'thumbnail' => null,
+            'thumbnail' => 'thumbs/023402.png',
             'fk_idscorm' => null,
         ]);
         DB::table('curso')->insert([
-            'referencia' => '022403',
-            'nome' => 'NR20 Específico Classe III',
+            'referencia' => '023403',
+            'nome' => 'NR20 - Específico Classe III',
             'is_reciclagem' => 0,
             'pratica_obrigatoria' => 0,
             'carga_horaria_pratica' =>   null,
@@ -967,12 +967,12 @@ descricao',
             'texto_curto' => "",
             'descricao' => "",
             'video' => null,
-            'thumbnail' => null,
+            'thumbnail' => 'thumbs/023403.png',
             'fk_idscorm' => null,
         ]);
         DB::table('curso')->insert([
             'referencia' => '024400',
-            'nome' => 'NR33 Supervisor',
+            'nome' => 'NR33 - Supervisor',
             'is_reciclagem' => 0,
             'pratica_obrigatoria' => 0,
             'carga_horaria_pratica' =>   null,
@@ -984,12 +984,12 @@ descricao',
             'texto_curto' => 'Com esse treinamento, seus alunos aprenderão sobre a melhor forma de proteção e prevenção de acidentes.',
             'descricao' =>   'Com esse treinamento, seus alunos aprenderão sobre a melhor forma de proteção e prevenção de acidentes na entrada de espaços confinados, em uma plataforma digital, em conformidade com a NR 1 e com certificados válidos em todo país.',
             'video' => null,
-            'thumbnail' => null,
+            'thumbnail' => 'thumbs/024400.png',
             'fk_idscorm' => null,
         ]);
         DB::table('curso')->insert([
             'referencia' => '024410',
-            'nome' => 'NR33 Supervisor ',
+            'nome' => 'NR33 - Supervisor ',
             'is_reciclagem' => 1,
             'pratica_obrigatoria' => 0,
             'carga_horaria_pratica' =>   null,
@@ -1001,12 +1001,12 @@ descricao',
             'texto_curto' => 'Ajude empresas a reduzirem os custos com capacitações obrigatórias.',
             'descricao' =>   'Ajude empresas a reduzirem os custos com capacitações obrigatórias de profissionais para agirem de acordo com a NBR 14787. Conte com instrutores treinados para atuarem de forma presencial, semipresencial e EaD.',
             'video' => null,
-            'thumbnail' => null,
+            'thumbnail' => 'thumbs/024410.png',
             'fk_idscorm' => null,
         ]);
         DB::table('curso')->insert([
             'referencia' => '025400',
-            'nome' => 'NR33 Trabalhador e Vigia',
+            'nome' => 'NR33 - Trabalhador e Vigia',
             'is_reciclagem' => 0,
             'pratica_obrigatoria' => 0,
             'carga_horaria_pratica' =>   null,
@@ -1018,12 +1018,12 @@ descricao',
             'texto_curto' => 'Ajude profissionais da área de segurança para agir proativamente na prevenção de acidentes.',
             'descricao' =>   'Ajude profissionais da área de segurança para agir proativamente na prevenção de acidentes, levando em consideração a NBR 14787, oferecendo uma plataforma digital, em conformidade com a NR 1 e com o apoio de tutores especialistas no assunto.',
             'video' => null,
-            'thumbnail' => null,
+            'thumbnail' => 'thumbs/025400.png',
             'fk_idscorm' => null,
         ]);
         DB::table('curso')->insert([
             'referencia' => '025410',
-            'nome' => 'NR33 Trabalhador e Vigia',
+            'nome' => 'NR33 - Trabalhador e Vigia',
             'is_reciclagem' => 1,
             'pratica_obrigatoria' => 0,
             'carga_horaria_pratica' =>   null,
@@ -1035,7 +1035,7 @@ descricao',
             'texto_curto' => 'Reciclar profissionais e reduzir os custos de treinamento dos seus clientes.',
             'descricao' =>   'Reciclar profissionais e reduzir os custos de treinamento dos seus clientes? Com o Sistema Escudo você faz os dois, capacitando os trabalhadores de acordo com a NBR 14787, treinando de forma remota, em conformidade com a NR 1 e com certificados válidos em todo o Brasil.',
             'video' => null,
-            'thumbnail' => null,
+            'thumbnail' => 'thumbs/025410.png',
             'fk_idscorm' => null,
         ]);
         DB::table('curso')->insert([
@@ -1052,7 +1052,7 @@ descricao',
             'texto_curto' => 'Proporcione aos seus clientes treinamentos digitais, intuitivos e certificados.',
             'descricao' =>   'Proporcione aos seus clientes treinamentos digitais, intuitivos e certificados de acordo com a NR 35, na plataforma de treinamentos EaD SST mais completa do Brasil.',
             'video' => null,
-            'thumbnail' => null,
+            'thumbnail' => 'thumbs/026400.png',
             'fk_idscorm' => null,
         ]);
         DB::table('curso')->insert([
@@ -1069,7 +1069,7 @@ descricao',
             'texto_curto' => 'Capacite de forma remota ou semipresencial supervisores para que inspecionem corretamente.',
             'descricao' =>   'Capacite de forma remota ou semipresencial supervisores para que inspecionem corretamente os equipamentos e as condições de trabalho em altura, em conformidade com a NR 35 e em salas de aula digitais que podem ser acessadas 24h por dia.',
             'video' => null,
-            'thumbnail' => null,
+            'thumbnail' => 'thumbs/027400.png',
             'fk_idscorm' => null,
         ]);
         DB::table('curso')->insert([
@@ -1086,7 +1086,7 @@ descricao',
             'texto_curto' => "",
             'descricao' => "",
             'video' => null,
-            'thumbnail' => null,
+            'thumbnail' => 'thumbs/027410.png',
             'fk_idscorm' => null,
         ]);
         DB::table('curso')->insert([
@@ -1103,7 +1103,7 @@ descricao',
             'texto_curto' => 'Que tal reciclar profissionais que trabalham em altura superior a 2 metros, de acordo com a NR35.',
             'descricao' =>   'Que tal reciclar profissionais que trabalham em altura superior a 2 metros, de acordo com a NR35, na primeira plataforma digital em conformidade com a NR 1 no Brasil? Com o Sistema Escudo você entrega treinamentos de ponta, apoio de instrutores especialistas e segurança jurídica aos seus clientes.',
             'video' => null,
-            'thumbnail' => null,
+            'thumbnail' => 'thumbs/026410.png',
             'fk_idscorm' => null,
         ]);
         DB::table('curso')->insert([
@@ -1120,7 +1120,7 @@ descricao',
             'texto_curto' => 'Identifique onde as NRs se aplicam e quem são os responsáveis pelo seu cumprimento.',
             'descricao' =>   'Quem não precisa de uma CIPA capacitada e pronta para atuar em conformidade com a NR 5 hoje em dia? Com o Sistema Escudo, seus clientes terão acesso a treinamentos intuitivos, digitais e dentro da lei, com certificação válida em todo o país.',
             'video' => null,
-            'thumbnail' => null,
+            'thumbnail' => 'thumbs/028400.png',
             'fk_idscorm' => null,
         ]);
         DB::table('curso')->insert([
@@ -1137,7 +1137,7 @@ descricao',
             'texto_curto' => "",
             'descricao' => "",
             'video' => null,
-            'thumbnail' => null,
+            'thumbnail' => 'thumbs/029400.png',
             'fk_idscorm' => null,
         ]);
         DB::table('curso')->insert([
@@ -1154,7 +1154,7 @@ descricao',
             'texto_curto' => "",
             'descricao' => "",
             'video' => null,
-            'thumbnail' => null,
+            'thumbnail' => 'thumbs/030400.png',
             'fk_idscorm' => null,
         ]);
         DB::table('curso')->insert([
@@ -1171,7 +1171,7 @@ descricao',
             'texto_curto' => "",
             'descricao' => "",
             'video' => null,
-            'thumbnail' => null,
+            'thumbnail' => 'thumbs/031400.png',
             'fk_idscorm' => null,
         ]);
         DB::table('curso')->insert([
@@ -1188,7 +1188,7 @@ descricao',
             'texto_curto' => "",
             'descricao' => "",
             'video' => null,
-            'thumbnail' => null,
+            'thumbnail' => 'thumbs/032400.png',
             'fk_idscorm' => null,
         ]);
         DB::table('curso')->insert([
@@ -1205,7 +1205,7 @@ descricao',
             'texto_curto' => "",
             'descricao' => "",
             'video' => null,
-            'thumbnail' => null,
+            'thumbnail' => 'thumbs/033400.png',
             'fk_idscorm' => null,
         ]);
         DB::table('curso')->insert([
@@ -1222,7 +1222,7 @@ descricao',
             'texto_curto' => "",
             'descricao' => "",
             'video' => null,
-            'thumbnail' => null,
+            'thumbnail' => 'thumbs/034400.png',
             'fk_idscorm' => null,
         ]);
         DB::table('curso')->insert([
@@ -1239,7 +1239,7 @@ descricao',
             'texto_curto' => 'Trabalhadores expostos a riscos.',
             'descricao' =>   'Capacite profissionais para o combater os riscos na sua origem, e fazendo o melhor uso dos Equipamentos de Proteção Individual (EPIs). São 2 horas de treinamento interativos para garantir o engajamento do aluno.',
             'video' => null,
-            'thumbnail' => null,
+            'thumbnail' => 'thumbs/035400.png',
             'fk_idscorm' => null,
         ]);
         DB::table('curso')->insert([
@@ -1256,7 +1256,7 @@ descricao',
             'texto_curto' => 'Promova a capacitação remota dos profissionais para poderem estar seguros durante o processo.',
             'descricao' =>   'Promova a capacitação remota dos profissionais para poderem estar seguros durante o processo em relação à guarda, limpeza e higienização dos respiradores, através de uma plataforma em conformidade com a NR, segura e intuitiva.',
             'video' => null,
-            'thumbnail' => null,
+            'thumbnail' => 'thumbs/036400.png',
             'fk_idscorm' => null,
         ]);
         DB::table('curso')->insert([
@@ -1273,7 +1273,7 @@ descricao',
             'texto_curto' => "",
             'descricao' => "",
             'video' => null,
-            'thumbnail' => null,
+            'thumbnail' => 'thumbs/037400.png',
             'fk_idscorm' => null,
         ]);
         DB::table('curso')->insert([
@@ -1290,7 +1290,7 @@ descricao',
             'texto_curto' => "",
             'descricao' => "",
             'video' => null,
-            'thumbnail' => null,
+            'thumbnail' => 'thumbs/038400.png',
             'fk_idscorm' => null,
         ]);
         DB::table('curso')->insert([
@@ -1307,7 +1307,7 @@ descricao',
             'texto_curto' => "",
             'descricao' => "",
             'video' => null,
-            'thumbnail' => null,
+            'thumbnail' => 'thumbs/039400.png',
             'fk_idscorm' => null,
         ]);
         DB::table('curso')->insert([
@@ -1324,7 +1324,7 @@ descricao',
             'texto_curto' => 'A segurança no exercício das atividades diárias dos colaboradores é indispensável para o seu cliente.',
             'descricao' =>   'Aplicas os princípios de segurança ao trabalhador com valas e escavações. Proteger a si mesmo e outros profissionais nos diferentes tipos de trabalhos em valas e escavações. Aumentar a segurança ao trabalhar em fundações cravadas e injetadas.',
             'video' => null,
-            'thumbnail' => null,
+            'thumbnail' => 'thumbs/040400.png',
             'fk_idscorm' => null,
         ]);
     }

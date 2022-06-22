@@ -24,3 +24,4 @@ database/seeders/SetupSeeder.php
 database/seeders/TreinamentoSeeder.php
 database/seeders/ScormSeeder.php
 database/seeders/CursoSeeder.php
+database/seeders

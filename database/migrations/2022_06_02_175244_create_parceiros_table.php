@@ -20,7 +20,7 @@ return new class extends Migration
             $table->string('site', 200)->nullable();
             $table->string('cor_principal', 10);
             $table->string('cor_secundaria', 10);
-            $table->binary('logo');
+            $table->binary('logo')->nullable();
             $table->foreignIdFor(\App\Models\Catalogo::class, 'fk_idcatalogo')->nullable();
             $table->foreignIdFor(\App\Models\ParceiroEndereco::class, 'fk_idparceiro_endereco')->nullable();
             $table->timestamps();

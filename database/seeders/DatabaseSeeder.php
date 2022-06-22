@@ -24,6 +24,7 @@ class DatabaseSeeder extends Seeder
         $this->call(CursoSeeder::class);
         $this->call(FormatoSeeder::class);
         $this->call(MatriculaSeeder::class);
+        $this->call(MatriculaAvulsaSeeder::class);
         $this->call(NivelSeeder::class);
         $this->call(PlanoSeeder::class);
         $this->call(ScormSeeder::class);
